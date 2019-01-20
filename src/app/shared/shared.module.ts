@@ -4,6 +4,8 @@ import {FooterComponent} from './components/footer/footer.component';
 import {HeaderComponent} from './components/header/header.component';
 import {ReactiveFormsModule} from '@angular/forms';
 import {RouterModule} from '@angular/router';
+import { NavigationComponent } from './components/header/navigation/navigation.component';
+import { SocialsComponent } from './components/header/socials/socials.component';
 
 @NgModule({
   imports: [
@@ -13,7 +15,9 @@ import {RouterModule} from '@angular/router';
   ],
   declarations: [
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    NavigationComponent,
+    SocialsComponent
   ],
   exports: [
     TranslateModule,
